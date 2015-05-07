@@ -1,10 +1,31 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="net.antineutrino.android.hellomoon.HelloMoonFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ImageView
+        android:src="@drawable/armstrong_on_moon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        android:scaleType="centerInside"
+        android:layout_weight="1"/>
 
-</FrameLayout>
+    <TableRow
+        android:gravity="center|bottom"
+        android:layout_weight="0"
+        >
+        <Button
+            android:id="@+id/hellomoon_playButton"
+            android:layout_weight="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hellomoon_play"/>
+        <Button
+            android:id="@+id/hellomoon_stopButton"
+            android:layout_weight="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hellomoon_stop"/>
+    </TableRow>
+
+</TableLayout>
