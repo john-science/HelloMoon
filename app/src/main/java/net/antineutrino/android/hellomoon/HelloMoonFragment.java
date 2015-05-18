@@ -1,12 +1,16 @@
 package net.antineutrino.android.hellomoon;
 
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 
 public class HelloMoonFragment extends Fragment {
@@ -15,12 +19,12 @@ public class HelloMoonFragment extends Fragment {
     private Button mPauseButton;
     private Button mStopButton;
     private AudioPlayer mPlayer = new AudioPlayer();
-
+    private String video = "android.resource://" +
+            "net.antineutrino.android.hellomoon/raw/" + R.raw.apollo_17_stroll;
 
     public HelloMoonFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent,
@@ -50,7 +54,6 @@ public class HelloMoonFragment extends Fragment {
 
         return v;
     }
-
 
     @Override
     public void onDestroy() {
