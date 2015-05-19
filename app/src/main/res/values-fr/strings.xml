@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BonjourLune</string>
+    <string name="hellomoon_play">Jouer</string>
+    <string name="hellomoon_stop">Arrêtez</string>
+    <string name="hellomoon_image_description">Neil Armstrong marcher sur la Lune</string>
+</resources>

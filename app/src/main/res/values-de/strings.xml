@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HalloMond</string>
+    <string name="hellomoon_play">Spielen</string>
+    <string name="hellomoon_stop">Stopp</string>
+    <string name="hellomoon_image_description">Neil Armstrong Betreten des Mondes</string>
+</resources>
