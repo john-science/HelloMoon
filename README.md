@@ -4,11 +4,11 @@ This app is a practice in handling multimedia files and in localization
 
 ## What Languages to Localize Too
 
-This is a big question for app developers out there. And a potential risk for the independent app developer. I've done some research on the matter and here are some of the more interesting results. (*NOTE*: These results were modern and contemporary in mid-2015.
+This is a big question for app developers out there. And a potential risk for the independent app developer. I've done some research on the matter and here are some of the more interesting results.
 
-#### Languages by Game Revenue
+#### Languages by Game Revenue (2013)
 
-http://localizedirect.com/posts/which-languages/
+[LocalizeDirect](http://localizedirect.com/posts/which-languages/)
 
 1. Japanese
 2. Korean
@@ -18,9 +18,9 @@ http://localizedirect.com/posts/which-languages/
 6. Russian
 7. Chinese
 
-#### Languages by Game Downloads
+#### Languages by Game Downloads (2013)
 
-http://localizedirect.com/posts/which-languages/
+[LocalizeDirect](http://localizedirect.com/posts/which-languages/)
 
 1. English
 2. Korean
@@ -30,8 +30,9 @@ http://localizedirect.com/posts/which-languages/
 6. Chinese
 7. Spanish
 
-#### Languages by Android Users
-http://blog.tethras.com/into-which-languages-should-i-localize-my-mobile-app/
+#### Languages by Android Users (2013)
+
+[Tethras Blog](http://blog.tethras.com/into-which-languages-should-i-localize-my-mobile-app/)
 
 1. English
 2. Korean
@@ -43,8 +44,9 @@ http://blog.tethras.com/into-which-languages-should-i-localize-my-mobile-app/
 8. Portugese
 9. Italian
 
-#### World Languages by Population
-http://www.davidpbrown.co.uk/help/top-100-languages-by-population.html
+#### World Languages by Population (Time Independent)
+
+[David Brown Blog](http://www.davidpbrown.co.uk/help/top-100-languages-by-population.html)
 
 1. Chinese, Mandarin
 2. Spanish
@@ -62,7 +64,7 @@ http://www.davidpbrown.co.uk/help/top-100-languages-by-population.html
 
 #### Top Languages by Internet Usage (2013)
 
-http://www.internetworldstats.com/stats7.htm
+[Internet World Stats](http://www.internetworldstats.com/stats7.htm)
 
 1. English
 2. Chinese
