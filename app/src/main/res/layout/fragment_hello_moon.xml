@@ -10,30 +10,39 @@
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment"
         android:scaleType="centerInside"
-        android:layout_weight="1"/>
+        android:background="#000000"
+        android:layout_weight="1"
+        android:contentDescription="@string/hellomoon_description"/>
 
     <TableRow
         android:gravity="center|bottom"
         android:layout_weight="0"
+        android:background="#000000"
         >
-        <Button
+        <ImageButton
             android:id="@+id/hellomoon_playButton"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/hellomoon_play"/>
-        <Button
+            android:background="#000000"
+            android:src="@drawable/play"
+            android:contentDescription="@string/hellomoon_play"/>
+        <ImageButton
             android:id="@+id/hellomoon_pauseButton"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/hellomoon_pause"/>
-        <Button
+            android:background="#000000"
+            android:src="@drawable/pause"
+            android:contentDescription="@string/hellomoon_pause"/>
+        <ImageButton
             android:id="@+id/hellomoon_stopButton"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#000000"
             android:layout_weight="1"
-            android:text="@string/hellomoon_stop"/>
+            android:src="@drawable/stop"
+            android:contentDescription="@string/hellomoon_stop"/>
     </TableRow>
 
 </TableLayout>
