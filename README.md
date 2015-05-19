@@ -76,5 +76,5 @@ http://www.internetworldstats.com/stats7.htm
 10. Malasia
 
 
- * A big thanks to the kids over at the [Big Nerd Ranch](https://www.bignerdranch.com/).
+A big thanks to the kids over at the [Big Nerd Ranch](https://www.bignerdranch.com/).
 
