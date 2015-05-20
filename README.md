@@ -1,6 +1,20 @@
 # HelloMoon
 
-This app is a practice in handling multimedia files and in localization
+I used this app to learn how the Android OS handles localization.
+
+## How Localization is Handled
+
+For localization of text, the Android OS makes this very easy. Strings are saved into `string.xml` files in locations like:
+
+    /app/main/res/values/
+    /app/main/res/values-land/
+
+If you want to support a language, the Android OS will try to find resources that match the language settings of the device. So, to add French text,  you would just build parallel `string.xml` files and throw them in directories with the two-digit language code added:
+
+    /app/main/res/values-fr/
+    /app/main/res/values-fr-land/
+
+For a complete listing of Android-supported language codes, look at the [ISO 639-2 webpage]( http://loc.gov/standards/iso639-2/php/code_list.php).
 
 ## What Languages to Localize Too
 
@@ -77,6 +91,6 @@ This is a big question for app developers out there. And a potential risk for th
 9. French
 10. Malasia
 
+## App Reference
 
 A big thanks to the kids over at the [Big Nerd Ranch](https://www.bignerdranch.com/).
-
