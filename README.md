@@ -1,15 +1,15 @@
 # HelloMoon
 
-I used this app to learn how the Android OS handles localization.
+This app is a simple example of how Android handles localization.
 
 ## How Localization is Handled
 
-For localization of text, the Android OS makes this very easy. Strings are saved into `string.xml` files in locations like:
+The Android OS makes the localization of text very easy. Your strings should already be saved as resources into files like:
 
-    /app/main/res/values/
-    /app/main/res/values-land/
+    /app/main/res/values/string.xml
+    /app/main/res/values-land/string.xml
 
-If you want to support a language, the Android OS will try to find resources that match the language settings of the device. So, to add French text,  you would just build parallel `string.xml` files and throw them in directories with the two-digit language code added:
+When an Android program is run, the OS will hunt through the all of the available resource directories and try to find a version that matches the languages settings of the local device. To add French text to your app, you would simply build paralllel `string.xml` files in folders with names that include the two-digit language code. For French, you might use:
 
     /app/main/res/values-fr/
     /app/main/res/values-fr-land/
